@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Softcube</title>
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/default.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/flexi_carousal.css" type="text/css" media="screen">
+<!--[if IE]><script src="js/html5.js"></script><![endif]-->
+<script type="text/javascript" src="js/jquery-1.10.0.js"></script>
+<script type="text/javascript" src="js/tinynav.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+$(function () {
+  // TinyNav.js 1
+  $('#menu-primary-navigation').tinyNav({
+	active: 'selected',
+	//label: 'Menu'
+	header: 'MENU'
+  });
+});
+</script>
+
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect:'random'
+    });
+});
+</script>
+
+<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+<script type="text/javascript">
+
+$(window).load(function() {
+    $("#flexiselDemo1").flexisel();
+    $("#flexiselDemo2").flexisel({
+        enableResponsiveBreakpoints: true,
+        responsiveBreakpoints: { 
+            portrait: { 
+                changePoint:480,
+                visibleItems: 1
+            }, 
+            landscape: { 
+                changePoint:640,
+                visibleItems: 2
+            },
+            tablet: { 
+                changePoint:768,
+                visibleItems: 3
+            }
+        }
+    });
+
+    $("#flexiselDemo3").flexisel({
+        visibleItems: 5,
+        animationSpeed: 1000,
+        autoPlay: true,
+        autoPlaySpeed: 3000,            
+        pauseOnHover: true,
+        enableResponsiveBreakpoints: true,
+        responsiveBreakpoints: { 
+            portrait: { 
+                changePoint:480,
+                visibleItems: 1
+            }, 
+            landscape: { 
+                changePoint:640,
+                visibleItems: 2
+            },
+            tablet: { 
+                changePoint:768,
+                visibleItems: 3
+            }
+        }
+    });
+
+    $("#flexiselDemo4").flexisel({
+        clone:false
+    });
+    
+});
+</script>
+
+<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+
+			$("a#example1").fancybox();
+
+			$("a#example2").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+			$("a#example3").fancybox({
+				'transitionIn'	: 'none',
+				'transitionOut'	: 'none'	
+			});
+
+			$("a#example4").fancybox({
+				'opacity'		: true,
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'none'
+			});
+
+			$("a#example5").fancybox();
+
+			$("a#example6").fancybox({
+				'titlePosition'		: 'outside',
+				'overlayColor'		: '#000',
+				'overlayOpacity'	: 0.9
+			});
+
+			$("a#example7").fancybox({
+				'titlePosition'	: 'inside'
+			});
+
+			$("a#example8").fancybox({
+				'titlePosition'	: 'over'
+			});
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			/*
+			*   Examples - various
+			*/
+
+			$("#various1").fancybox({
+				'titlePosition'		: 'inside',
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+
+			$("#various2").fancybox();
+
+			$("#various3").fancybox({
+				'width'				: '40%',
+				'height'			: '40%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+
+			$("#various4").fancybox({
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+		});
+	</script>
+
+
+
+	
+
+
+
+
+</head>
+<body>
+<!--HEADER SECTION -->
+<div id="header-section">
+<div id="headerinner">
+    
+    	<div class="social-link tw-class"><a href="https://twitter.com/softcubelimited" target="_blank"><img src="images/socialmedia-twitter.png" alt="Twitter">twitter.com/softcubelimited</a></div>
+    <div class="social-link fb-class"><a href="https://www.facebook.com/softcubelimited" target="_blank"><img src="images/socialmedia-fb.png" alt="Facebook">facebook.com/softcubelimited</a></div>
+        
+        <div class="contact"><img src="images/call-icon.png" alt="">+233540120720 / +233244304946 / +233243063870</div>
+        <div id="headerbot">
+    	<div class="sitelogo"><a href="#"><img src="images/softcube-sitelogo.png" alt=""></a></div>
+    	<nav id="navigation">
+            <ul id="menu-primary-navigation">
+                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">The Team</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+    <div class="clr"></div>
+    </div>
+  	<div class="clr"></div>
+  </div>
+  
+</div>
+<!--/HEADER SECTION -->
+<!--BANNER SECTION -->
+<div id="banner-section">
+    <div class="slider-wrapper theme-default">
+    <div id="slider" class="nivoSlider">
+    <img src="images/slide01.jpg" alt="" title="#htmlcaption">
+    <img src="images/slide02.jpg" alt="" title="#htmlcaption01">
+    <img src="images/slide03.jpg" alt="" title="#htmlcaption02">
+    </div>
+    <div id="htmlcaption" class="nivo-html-caption">
+    <h2>Save up to <span>40%</span> on your <span>website design</span> &amp; <span>Emails</span></h2>
+    
+    </div>
+    <div id="htmlcaption01" class="nivo-html-caption">
+    <h2>Save up to <span>40%</span> on your <span>website design</span> &amp; <span>Emails</span></h2>
+    </div>
+    <div id="htmlcaption02" class="nivo-html-caption">
+   <h2>Save up to <span>40%</span> on your <span>website design</span> &amp; <span>Emails</span></h2>
+    </div>
+    </div>
+</div>
+<!--/BANNER SECTION -->
+<!--CONTENT SECTION -->
+<div id="content-section">
+	<div class="secondery-banner"><img src="images/emailhosting-webdesign-service.jpg" alt="Email Hosting services Website Designing"></div>
+    <div class="project-gallery">
+    	<div class="projectgallery-inner">
+        	<h2>Some of the <span>lovely people we've worked with</span></h2>
+        	<ul id="flexiselDemo2"> 
+                <li><a rel="example_group" href="images/carousal-slide01.jpg" title=""><img src="images/carousal-slide01.jpg" alt=""></a></li>
+                <li><a rel="example_group" href="images/carousal-slide02.jpg" title=""><img src="images/carousal-slide02.jpg" alt=""></a></li>    
+                <li><a rel="example_group" href="images/carousal-slide03.jpg" title=""><img src="images/carousal-slide03.jpg" alt=""></a></li     
+                <li><a rel="example_group" href="images/carousal-slide04.jpg" title=""><img src="images/carousal-slide04.jpg" alt=""></a></li> 
+                <li><a rel="example_group" href="images/carousal-slide01.jpg" title=""><img src="images/carousal-slide01.jpg" alt=""></a></li> 
+                <li><a rel="example_group" href="images/carousal-slide02.jpg" title=""><img src="images/carousal-slide02.jpg" alt=""></a></li>    
+                <li><a rel="example_group" href="images/carousal-slide03.jpg" title=""><img src="images/carousal-slide03.jpg" alt=""></a></li     
+                <li><a rel="example_group" href="images/carousal-slide04.jpg" title=""><img src="images/carousal-slide04.jpg" alt=""></a></li>                                                          
+            </ul>	
+        <div class="clr"></div>
+        </div>
+    </div> 
+  	<div class="contact-section">
+    	<div class="contact-section-inner">
+        	<div class="contactform">
+            	<h3>Send us a message</h3>
+                <form id="contactForm">
+                    <input type="text" required name="name" placeholder="Your Name">
+                    <input type="email" name="email" required placeholder="Email Address">
+                    <textarea rows="10" required="" name="message" cols="10" placeholder="Please type your message here..."></textarea>
+                    <div id="msg"><img class="loaderImg hidden" alt="please wait" src="images/loader.gif" /></div>
+                    <input type="submit" value=""> 
+                </form>
+            </div>
+            <div class="contactinfo">
+            	<h3>Contact Information</h3>
+                <p>Telephone: +233540120720  /  +233244304946  /  +233243063870</p>
+				<p>Email: <a href="mailto:info@softcube.co">info@softcube.co</a></p> 
+            </div>
+            <div class="followinfo">
+            	<h3>Follow Us On:</h3>
+                <p><a href="https://www.facebook.com/softcubelimited" target="_blank">www.facebook.com/softcubelimited</a></p> 
+            </div>
+        <div class="clr"></div>	
+        </div>	
+    </div>
+<div class="clr"></div>
+</div>
+<!--/CONTENT SECTION -->
+<!--FOOTER SECTION -->
+<footer id="footer-section">
+<div class="footerinner">
+<nav>
+    <ul>
+    	<li><a href="index.html">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">The Team</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>      
+<p class="copyright">&copy; 2014 Copyright. All rights reserved.</p>  
+<div class="clr"></div>
+</div>
+</footer>
+<!--/FOOTER SECTION -->
+
+</body>
+</html>

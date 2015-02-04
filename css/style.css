@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 	-----------------------------------------------------
+	------------------- General Styles ------------------
+	----------------------------------------------------- */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {display:block;}
+audio, canvas, video {display:inline-block; *display:inline; *zoom:1;}
+audio:not([controls]) {display:none;}
+	
+* {margin:0; padding:0; outline:none;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; background:transparent;}
+
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after,  {content:''; content:none;}
+:focus {outline:0;}
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+table {border-collapse:collapse; border-spacing:0;}
+
+
+a, a:hover, a:active, a:focus {outline:none; outline-style:none; outline-width:0; }
+
+img {width:auto\9; height:auto; max-width:100%; vertical-align:middle; border:0; -ms-interpolation-mode:bicubic;}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {cursor:pointer; -webkit-appearance:button;}
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {cursor:pointer;}
+input[type="search"] {-webkit-box-sizing:content-box; -moz-box-sizing:content-box; box-sizing:content-box; -webkit-appearance:textfield;}
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {-webkit-appearance:none;}
+textarea {overflow:auto; vertical-align:top;}
+
+body {margin:0; padding:0; font-family:'open_sansregular'; font-weight:normal; color:#797979; background:#f4f4f4; font-size:14px;}
+
+.clr {font-size:0; height:0; line-height:0; clear:both;}
+.left {margin:0; padding:0; width:auto; height:auto; float:left;}
+.right {margin:0; padding:0; width:auto; height:auto; float:right;}
+
+/*---------------------------- Web fonts -------------------------*/
+
+
+@font-face {
+    font-family: 'swis721_lt_btlight';
+    src: url('../fonts/swz721l-webfont.eot');
+    src: url('../fonts/swz721l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swz721l-webfont.woff') format('woff'),
+         url('../fonts/swz721l-webfont.ttf') format('truetype'),
+         url('../fonts/swz721l-webfont.svg#swis721_lt_btlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Swis721ThBTThin';
+    src: url('../fonts/swz721t-webfont-webfont.eot');
+    src: url('../fonts/swz721t-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swz721t-webfont-webfont.woff') format('woff'),
+         url('../fonts/swz721t-webfont-webfont.ttf') format('truetype'),
+         url('../fonts/swz721t-webfont-webfont.svg#Swis721ThBTThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'swiss921_btregular';
+    src: url('../fonts/swz921n-webfont.eot');
+    src: url('../fonts/swz921n-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swz921n-webfont.woff') format('woff'),
+         url('../fonts/swz921n-webfont.ttf') format('truetype'),
+         url('../fonts/swz921n-webfont.svg#swiss921_btregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*-------------------------- / web fonts -------------------------*/
+
+/* 	-----------------------------------------------------
+	------------------- Header Styles ------------------
+	----------------------------------------------------- */
+#header-section{ width:100%; height:auto; margin:0px auto; background:#000;}
+#header-section #headerinner{ width:1060px; height:auto; margin:0 auto; padding:10px 20px; position:relative;}
+#header-section .social-link{ float:left; margin:0 34px 0 0; font-size:13px; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height:18px;}
+#header-section .social-link img{ float:left; margin:2px 6px 0 0;}
+#header-section .social-link.tw-class a{ color:#00aced; text-decoration:none;}
+#header-section .social-link.fb-class a{ color:#3b5998; text-decoration:none;}
+#header-section .contact{ float:right; color:#babab8; font-size:13px; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height:18px;}
+#header-section .contact img{ float:left; margin:2px 8px 0 0;}
+
+#header-section #headerbot{ width:1060px; height:auto; margin:0 auto; padding:14px 20px; position:absolute; left:0; bottom:-56px; z-index:9999; background:#fff;}	
+	#header-section .sitelogo{ float:left;}	
+	#header-section #navigation{ float:right; margin:0; padding:0;}
+		#header-section #navigation ul{ list-style:none; margin:0; padding:0;}
+			#header-section #navigation ul li{ display:inline-block; font-family:'swis721_lt_btlight'; color:#6c6c6c; font-size:18px; font-weight:normal; margin:0 16px;}
+				#header-section #navigation ul li a{ color:#6c6c6c; text-decoration:none;}
+				#header-section #navigation ul li a.selected, #header-section #navigation ul li a:hover{ color:#000;}
+		.tinynav { display: none;}
+			#navigation select { margin:0 auto; padding:7px 4%; width:98%; height:38px; background:none;  border:none; border-bottom:2px solid #f3541e; font-size:18px; font-weight:normal; line-height:28px; color:#6c6c6c; font-family:'swis721_lt_btlight'; cursor:pointer; text-align:center;}
+			#navigation select option {margin:0; padding:2% 4%; color:#858585; background-color:#fff; text-align:center;}			
+	
+/* 	-----------------------------------------------------
+	------------------- Header Styles ------------------
+	----------------------------------------------------- */
+
+/* 	-----------------------------------------------------
+	------------------- Banner Styles ------------------
+	----------------------------------------------------- */
+
+#banner-section{ width:100%; height:auto; margin:0 auto; background:url(../images/banner-bg.jpg) center top repeat-y; background-size:cover; -moz-background-size:cover; -webkit-background-size:cover; background-size:100% 100%; border-bottom:3px solid #616161;}
+
+/* 	------------------- /Banner Styles ----------------- */
+		
+/* 	-----------------------------------------------------
+	------------------- Content Styles ------------------
+	----------------------------------------------------- */	
+	
+	#content-section{ width:100%; margin:0px auto; padding:0; }
+	.secondery-banner{ width:100%;}
+	.secondery-banner img{ width:100%;}
+	
+	.project-gallery{ width:100%; height:auto; padding:54px 0; background:url(../images/project-gallery-bg.jpg) 0 0 repeat;}
+	.project-gallery .projectgallery-inner{ width:1060px; height:auto; margin:0 auto; text-align:center;}
+	.project-gallery h2{ font-family: 'Swis721ThBTThin'; font-size:45px; font-weight:normal; color:#fff; margin-bottom:22px; text-shadow: 1px 1px 0px rgba(30, 31, 32, 1);}
+	.project-gallery h2 span{ font-family: 'swiss921_btregular'; color:#fff; font-weight:normal;}
+	
+	.contact-section{ width:100%; height:auto; background:url(../images/greybg.png) 0 0 repeat;}
+	.contact-section-inner{ width:1060px; height:auto; margin:0 auto; padding:38px 0;}
+	.contact-section .contactform{ width:764px; height:auto; text-align:center; margin:0 auto 30px;}
+	.contact-section h3{ font-family: 'swiss921_btregular'; color:#292a25; font-weight:normal; font-size:30px; margin:0 0 6px;}
+	.contact-section p{ color:#000; font-size:16px; line-height:22px; margin:0 0 6px;}
+	.contact-section p a{ color:#000; text-decoration:none;}
+	.contact-section .contactform input[type="text"]{ width:96%; height:26px; padding:3px 2%; margin:0 auto 8px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border:1px solid #9b9d9b; color:#70706f; font-size:14px; font-weight:normal; line-height:normal;}
+	.contact-section .contactform input[type="email"]{ width:96%; height:26px; padding:3px 2%; margin:0 auto 8px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border:1px solid #9b9d9b; color:#70706f; font-size:14px; font-weight:normal; line-height:normal;}
+	
+        .contact-section .contactform textarea{ width:96%; height:94px; padding:4px 2%; resize:none; overflow:auto; margin:0 auto 14px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border:1px solid #9b9d9b; color:#70706f; font-size:14px; font-weight:normal; line-height:normal;}
+	.contact-section .contactform input[type="submit"]{ width:133px; height:42px; background:url(../images/sendmsg-btn.png) 0 0 no-repeat; border:none; cursor:pointer;}
+	
+	.contact-section .contactinfo{ float:left; width:56%; background:url(../images/icon-contactinfo.png) 0 40% no-repeat; padding:6px 0 6px 82px; font-family:Arial, Helvetica, sans-serif;}
+	.contact-section .followinfo{ float:right; width:24%;background:url(../images/icon-fb.png) 0 40% no-repeat; padding:6px 0 6px 82px; font-family:Arial, Helvetica, sans-serif;}
+	/* 	-----------------------------------------------------
+	------------------- Footer Styles ------------------
+	----------------------------------------------------- */
+	
+	#footer-section{ width:100%; height:auto; margin:0 auto; background:#fa5a2f; font-family:Arial, Helvetica, sans-serif; font-weight:normal; color:#0c0c0c; font-size:14px;}
+	#footer-section .footerinner{ width:1060px; padding:22px 0; margin:0 auto;}
+	#footer-section nav{ float:left;}
+	#footer-section nav ul{ list-style:none; margin:0; padding:0;}
+	#footer-section nav ul li{ display:inline-block; font-family:Arial, Helvetica, sans-serif; font-weight:normal; color:#0c0c0c; font-size:14px; margin: 0 4px 0 -1px; padding: 0 12px 0 4px; background:url(../images/footersep.png) 100% 2px no-repeat;}
+	#footer-section nav ul li:last-child{ background:none;}
+	#footer-section nav ul li a{ color:#0c0c0c; text-decoration:none;}
+	#footer-section p.copyright{ float:right; }
+	#footer-section p.copyright a{ color:#a4dbf2; text-decoration:none;}
+        .hidden {
+            visibility: hidden;
+        }
+	
+	

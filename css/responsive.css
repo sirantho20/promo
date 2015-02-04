@@ -1,0 +1,139 @@
+@media only screen and (min-width:760px) and (max-width:1000px) {
+	img {max-width:100%; height:auto;}
+	/*header section*/
+	#header-section #headerinner{ width:100%; padding:10px 0 0; margin:0 auto;}
+	#header-section .social-link{ float:none; width:100%; margin:0 auto 12px; text-align:center; }
+	#header-section .contact{float:none; width:100%; margin:0 auto 12px; text-align:center;}
+	#header-section .social-link img, #header-section .contact img{ float:none;}
+	#header-section #headerbot{width:96%; margin:0 auto; padding: 14px 2%; bottom:auto; left:auto; position:relative;}
+	
+	/*header section*/
+	.nivo-caption {top:10%; width:90%;}
+	.nivo-caption h2{font-size:50px!important;}
+	.theme-default .nivo-controlNav { top:32%!important;}
+	/*content section*/
+	.project-gallery .projectgallery-inner{ width:98%; margin:0 auto;}
+	.nbs-flexisel-item { margin:0 6px; padding:0px; }
+	.nbs-flexisel-nav-left { left:10px!important;}
+
+	.nbs-flexisel-nav-right { right: 10px!important;}
+	.contact-section-inner{ width:98%; margin:0 auto;}
+	.contact-section .contactinfo{ float:left; width:50%;}
+	.contact-section .contactform{ width:98%; height:auto;}
+	.contact-section .contactinfo{ float:none; width:68%; margin:0 auto 30px;}
+	.contact-section .followinfo{ float:none; width:68%; margin:0 auto;}
+	/*content section*/
+	
+	/*footer section*/
+	#footer-section .footerinner{ width:98%; height:auto; margin:0 auto;}
+	
+	/*footer section*/
+}
+@media only screen and (min-width:480px) and (max-width:760px) {
+img {max-width:100%; height:auto;}
+#menu-primary-navigation{ display:none;}
+	.tinynav { display: block;}
+	/*header section*/
+	#header-section #headerinner{ width:100%; padding:10px 0 0; margin:0 auto;}
+	#header-section .social-link{ float:none; width:100%; margin:0 auto 12px; text-align:center; }
+	#header-section .contact{float:none; width:100%; margin:0 auto 12px; text-align:center;}
+	#header-section .social-link img, #header-section .contact img{ float:none;}
+	#header-section #headerbot{width:96%; margin:0 auto; padding: 14px 2%; bottom:auto; left:auto; position:relative;}
+	#header-section .sitelogo{ float:none; width:100%; text-align:center; margin:0 auto 20px;}	
+	#header-section #navigation{ float:none; width:100%;; margin:0 auto; padding:0;}
+	/*header section*/
+	.nivo-caption { top:10%!important; width:90%!important;}
+	.nivo-caption {padding:0!important; width:80%!important;}
+	.nivo-caption h2{font-size:40px!important;}
+	.theme-default .nivo-controlNav { display:none; }
+	.theme-default .nivo-directionNav a { width:30px!important; height:30px!important; background:url(../images/arrows-sml.png) no-repeat!important;}
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0!important;
+	right:1%;
+}
+.theme-default a.nivo-prevNav {
+	left:1%;
+}
+	
+	/*content section*/
+	.project-gallery .projectgallery-inner{ width:96%; margin:0 auto;}
+	.nbs-flexisel-item { margin:0 -10px 0 8px!important; padding:0px; }
+	.nbs-flexisel-item img { width: 100%; cursor: pointer; positon: relative; margin-top: 10px; margin-bottom: 10px; max-width:200px!important; max-height:140px!important; padding:3px!important;
+}
+	.nbs-flexisel-nav-left { left:10px!important; top:42%!important;}
+
+	.nbs-flexisel-nav-right { right: 10px!important; top:42%!important;}
+	
+	
+	.contact-section-inner{ width:98%; margin:0 auto;}
+	.contact-section .contactform{ width:98%; height:auto;}
+	.contact-section .contactinfo{ float:none; width:68%; margin:0 auto 30px;}
+	.contact-section .followinfo{ float:none; width:68%; margin:0 auto;}
+	/*content section*/
+	
+	/*footer section*/
+	#footer-section .footerinner{ width:98%; height:auto; margin:0 auto;}
+	#footer-section nav{ float:none; width:100%; margin:0 auto 14px;}
+	#footer-section nav ul{ text-align:center;}
+	#footer-section p.copyright{ float:none; width:100%; margin:0 auto; text-align:center; }
+	/*footer section*/
+	
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+	
+	img {max-width:100%; height:auto;}
+#menu-primary-navigation{ display:none;}
+	.tinynav { display: block;}
+	/*header section*/
+	#header-section #headerinner{ width:100%; padding:10px 0 0; margin:0 auto;}
+	#header-section .social-link{ float:none; width:100%; margin:0 auto 12px; text-align:center; }
+	#header-section .contact{float:none; width:100%; margin:0 auto 12px; text-align:center;}
+	#header-section .social-link img, #header-section .contact img{ float:none;}
+	#header-section #headerbot{width:96%; margin:0 auto; padding: 14px 2%; bottom:auto; left:auto; position:relative;}
+	#header-section .sitelogo{ float:none; width:100%; text-align:center; margin:0 auto 20px;}	
+	#header-section #navigation{ float:none; width:100%;; margin:0 auto; padding:0;}
+	/*header section*/
+	.nivo-caption { top:10%!important; width:90%!important;}
+	.nivo-caption {padding:0!important; width:80%!important;}
+	.nivo-caption h2{font-size:24px!important;}
+	.theme-default .nivo-controlNav { display:none; }
+	.theme-default .nivo-directionNav a { width:30px!important; height:30px!important; background:url(../images/arrows-sml.png) no-repeat!important;}
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0!important;
+	right:1%;
+}
+.theme-default a.nivo-prevNav {
+	left:1%;
+}
+	
+	/*content section*/
+	.project-gallery .projectgallery-inner{ width:96%; margin:0 auto;}
+	.nbs-flexisel-item { margin:0 -10px 0 8px!important; padding:0px; }
+	.nbs-flexisel-item img { width: 100%; cursor: pointer; positon: relative; margin-top: 10px; margin-bottom: 10px; max-width:200px!important; max-height:140px!important; padding:5px!important;
+}
+	.nbs-flexisel-nav-left { left:10px!important; top:42%!important;}
+
+	.nbs-flexisel-nav-right { right: 10px!important; top:42%!important;}
+	
+	
+	.contact-section-inner{ width:98%; margin:0 auto;}
+	.contact-section .contactform{ width:98%; height:auto;}
+	.contact-section .contactinfo{ float:none; width:68%; margin:0 auto 30px; font-size:10px!important;}
+	.contact-section .followinfo{ float:none; width:68%;}
+	.contact-section p{ font-size:14px!important;}
+	/*content section*/
+	
+	/*footer section*/
+	#footer-section .footerinner{ width:98%; height:auto; margin:0 auto;}
+	#footer-section nav{ float:none; width:100%; margin:0 auto 14px;}
+	#footer-section nav ul{ text-align:center;}
+	#footer-section p.copyright{ float:none; width:100%; margin:0 auto; text-align:center; }
+	/*footer section*/
+	
+
+	
+}
+
+
+

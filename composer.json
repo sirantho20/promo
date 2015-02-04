@@ -1,0 +1,6 @@
+{
+    "name": "aafetsrom",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
+}
